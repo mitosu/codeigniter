@@ -6,13 +6,15 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/foundation.css"/>
+    <link rel="stylesheet" href="<?php echo base_url(); ?>css/main.css"/>
     <script src="<?php echo base_url(); ?>js/vendor/modernizr.js" type="text/javascript"></script>
 </head>
 <body>
 
     <div class="row">
-        <div class="small-12 columns">
-            <form data-abide>
+        <div class="large-4 columns"></div>
+        <div class="large-4 columns">
+            <form data-abide class="form-signin">
                 <div class="name-field">
                     <label>Usuario <small>requerido</small>
                         <input type="text" required pattern="[a-zA-Z]+">
@@ -25,9 +27,10 @@
                     </label>
                     <small class="error">An email address is required.</small>
                 </div>
-                <button type="submit" class="button">Log in Control Panel Rock App Roll</button>
+                <button type="submit" class="button">Log in Control Panel RockAppRoll</button>
             </form>
         </div>
+        <div class="large-4 columns"></div>
     </div>
 
     <script src="<?php echo base_url(); ?>js/vendor/jquery.js" type="text/javascript"></script>
